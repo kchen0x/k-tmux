@@ -56,9 +56,9 @@ sudo make install
 #### DOWNLOAD SOURCES FOR TMUX AND MAKE AND INSTALL
 
 ```
-git clone https://github.com/tmux/tmux.git
-cd tmux
-LDFLAGS="-L/usr/local/lib -Wl,-rpath=/usr/local/lib" ./configure --prefix=/usr/local
+curl -OL https://github.com/tmux/tmux/releases/download/2.3/tmux-2.3.tar.gz
+tar -xvzf tmux-2.3.tar.gz
+cd tmux-2.3
 make
 sudo make install
 ```
