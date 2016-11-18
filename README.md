@@ -2,13 +2,11 @@
 
 # Introduction
 
-A tmux conf, which can work with [k-vim](https://github.com/wklken/k-vim)
-
-简要说明 [k-tmux](http://www.wklken.me/posts/2015/08/06/linux-tmux.html)
+使用说明请见 [k-tmux](http://kchen.cc/2016/11/18/custom-multiplexer-k-tmux/)
 
 # Screenshot
 
-![screenshot](https://raw.githubusercontent.com/wklken/gallery/master/tmux/tmux.png)
+![screenshot](http://7xin49.com1.z0.glb.clouddn.com/mac_qrsync/e63751170c3cc32863ada94b1527f581.png-960.jpg)
 
 # Preparation
 
