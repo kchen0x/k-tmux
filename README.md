@@ -57,7 +57,7 @@ sudo make install
 curl -OL https://github.com/tmux/tmux/releases/download/2.3/tmux-2.3.tar.gz
 tar -xvzf tmux-2.3.tar.gz
 cd tmux-2.3
-make
+./configure && make
 sudo make install
 ```
 
