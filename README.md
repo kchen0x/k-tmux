@@ -2,7 +2,7 @@
 
 # Introduction
 
-使用说明请见 [k-tmux](http://kchen.cc/2016/11/18/custom-multiplexer-k-tmux/)
+使用说明请见 [More details about k-tmux](http://kchen.cc/2016/11/18/custom-multiplexer-k-tmux/)
 
 # Screenshot
 
