@@ -43,6 +43,12 @@ yum install gcc kernel-devel make ncurses-devel
 #### DOWNLOAD SOURCES FOR LIBEVENT AND MAKE AND INSTALL
 
 ```
+yum install libevent
+```
+
+or
+
+```
 curl -OL https://github.com/libevent/libevent/releases/download/release-2.0.22-stable/libevent-2.0.22-stable.tar.gz
 tar -xvzf libevent-2.0.22-stable.tar.gz
 cd libevent-2.0.22-stable
