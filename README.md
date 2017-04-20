@@ -69,23 +69,7 @@ sudo make install
 
 # Install
 
-Recommend
-
-```
-1. backup old tmux config if it is necessary
-
-cp ~/.tmux.conf ~/.tmux.conf_bak
-
-2. just get the file
-
-curl https://raw.githubusercontent.com/quentin-chen/k-tmux/master/tmux.conf > ~/.tmux.conf
-
-3. Done, enjoy it
-```
-
-Use github
-
 ```
 git clone https://github.com/qunetin-chen/k-tmux.git
-ln -s $PWD/k-tmux/tmux.conf ~/.tmux.conf
+./install.sh
 ```
