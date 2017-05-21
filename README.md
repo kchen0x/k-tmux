@@ -70,6 +70,6 @@ sudo make install
 # Install
 
 ```
-git clone https://github.com/qunetin-chen/k-tmux.git
+git clone https://github.com/quentin-chen/k-tmux.git
 ./install.sh
 ```
