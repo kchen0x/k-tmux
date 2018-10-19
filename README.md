@@ -6,7 +6,7 @@
 
 # Screenshot
 
-![screenshot](http://7xin49.com1.z0.glb.clouddn.com/mac_qrsync/e63751170c3cc32863ada94b1527f581.png-960.jpg)
+![screenshot](http://data.kchen.cc/mac_qrsync/e63751170c3cc32863ada94b1527f581.png-960.jpg)
 
 # Preparation
 
@@ -70,6 +70,6 @@ sudo make install
 # Install
 
 ```
-git clone https://github.com/quentin-chen/k-tmux.git
-./install.sh
+mv ~/.tmux.conf ~/.tmux.conf.bak
+curl https://raw.githubusercontent.com/kchen0x/k-tmux/master/tmux.conf > ~/.tmux.conf
 ```
