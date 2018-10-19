@@ -67,9 +67,11 @@ cd tmux-2.3
 sudo make install
 ```
 
-# Install
+# Install k-tmux
 
 ```
 mv ~/.tmux.conf ~/.tmux.conf.bak
 curl https://raw.githubusercontent.com/kchen0x/k-tmux/master/tmux.conf > ~/.tmux.conf
 ```
+
+You may need to reload you configuaration after adding k-tum in your environment. 
