@@ -1,22 +1,22 @@
 # k-tmux
 
-# Introduction
+## Introduction
 
 使用说明请见 [More details about k-tmux](http://kchen.cc/2016/11/18/custom-multiplexer-k-tmux/)
 
-# Screenshot
+## Screenshot
 
 ![screenshot](http://data.kchen.cc/mac_qrsync/e63751170c3cc32863ada94b1527f581.png-960.jpg)
 
-# Preparation
+## Preparation
 
-Since the configuration works with Tmux 2.3. So, make sure you have the latest version:
+Since the configuration works with Tmux 2.5. So, make sure you have the latest version:
 
 ```
 tmux -V
 ```
 
-expected resslt: `tmux 2.3` or latest.
+expected resslt: `tmux 2.5` or latest.
 
 ## Install Tmux
 
@@ -60,18 +60,17 @@ sudo make install
 #### DOWNLOAD SOURCES FOR TMUX AND MAKE AND INSTALL
 
 ```
-curl -OL https://github.com/tmux/tmux/releases/download/2.3/tmux-2.3.tar.gz
-tar -xvzf tmux-2.3.tar.gz
-cd tmux-2.3
+curl -OL https://github.com/tmux/tmux/releases/download/2.5/tmux-2.5.tar.gz
+tar -xvzf tmux-2.5.tar.gz
+cd tmux-2.5
 ./configure && make
 sudo make install
 ```
 
-# Install k-tmux
+## Install k-tmux
 
 ```
-mv ~/.tmux.conf ~/.tmux.conf.bak
-curl https://raw.githubusercontent.com/kchen0x/k-tmux/master/tmux.conf > ~/.tmux.conf
+./install.sh
 ```
 
-You may need to reload you configuaration after adding k-tum in your environment. 
+You may need to reload you configuaration after adding k-tum in your environment.
